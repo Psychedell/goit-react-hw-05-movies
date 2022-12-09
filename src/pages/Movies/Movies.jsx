@@ -25,7 +25,7 @@ const Movies = () => {
       })
       .catch(error => console.log(error));
     // .finally(setLoader('false'));
-  }, [inputSearchQuery, fetchFilms]);
+  }, [inputSearchQuery]);
 
   const handleSubmit = e => {
     e.preventDefault();
